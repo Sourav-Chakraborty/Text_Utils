@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,22 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.blank{
+  color:rgb(71, 134, 12);
+}
+* {
+  color: var(--fontColor);
+}
+
+nav {
+  background: var(--navBg);
+}
+
+nav ul li:hover {
+  background-color: var(--navLinkHoverBg);
+}
+
+main {
+  background: var(--mainBg);
 }
